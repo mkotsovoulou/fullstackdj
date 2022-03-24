@@ -19,6 +19,6 @@ from django.conf.urls.static import static
 from django.conf import settings
 
 urlpatterns = [
-    #path ("", views.index, name="index"),
+    path("", include('fullstack.urls')),
     path('fullstack/', include('fullstack.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
