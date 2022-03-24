@@ -1,5 +1,6 @@
 import os
 import django_heroku
+
 """
 Django settings for conference project.
 
