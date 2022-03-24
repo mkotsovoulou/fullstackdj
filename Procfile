@@ -1,1 +1,1 @@
-web: gunicorn --chdir app app.wsgi:application --log-file - --log-level debug
+web: gunicorn --chdir app conference.wsgi:application --log-file - --log-level debug
