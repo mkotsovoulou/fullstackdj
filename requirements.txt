@@ -5,6 +5,7 @@ gunicorn
 django-heroku
 requests
 pillow
+whitenoise
 
 # Sub-dependencies of bob-builder.
 boto==2.49.0
